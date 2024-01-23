@@ -1,0 +1,39 @@
+  for (i = 2; i <= num / 2; i++)
+
+    {
+
+        // check if num is divisible by any number.
+
+        if (num % i == 0)
+
+        {
+
+            temp++;
+
+            break;
+
+        }
+
+    } 
+
+
+    if (temp == 0 && num != 1)
+
+    {
+
+        printf("%d is a Prime number", num);
+
+    }
+
+    else
+
+    {
+
+        printf("%d is not a Prime number", num);
+
+    }
+
+    return 0;
+
+}
+
