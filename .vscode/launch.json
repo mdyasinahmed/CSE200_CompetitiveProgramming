@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/CSE_MU/CSE200_CompetitiveProgramming/C3/contest",
-      "program": "d:/CSE_MU/CSE200_CompetitiveProgramming/C3/contest/build/Debug/outDebug",
+      "cwd": "d:/CSE_MU/CSE200_CompetitiveProgramming/C3/practice",
+      "program": "d:/CSE_MU/CSE200_CompetitiveProgramming/C3/practice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
