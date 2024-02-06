@@ -1,20 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 int main() {
     int t;
     cin >> t;
 
-    int a;
     while(t--) {
+        int a, b;
         cin >> a;
 
-        if(a < 180/3) {
-            cout << "NO" << endl;
-        } else{
-            cout << "YES" <<endl;
-        }
+        b = 360/(180-a);
+
+        if(b>2) cout << "YES\n";
+        else cout << "NO\n";
     }
 
     return 0;
 }
+
