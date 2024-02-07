@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-    int t, count=0;
+    int t;
     cin >> t;
 
+    int count=0;
     while(t--) {
         int a, b;
         cin >> a >> b;
