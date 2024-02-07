@@ -3,15 +3,21 @@
 
 using namespace std;
 
+ll summingSeries(ll n) {
+    return (ll)pow(n, 2) % (ll)(1e9 + 7);
+}
+
 int main() {
     int t;
     cin >> t;
 
     for(int i=0; i<t; i++) {
-        long int n;
+        ll n;
         cin >> n;
-        ll mod = pow(10, 9) + 7;
-        cout << (ll)pow((n % mod), 2%mod) % mod << endl;
+
+        ll result = summingSeries(n);
+
+        cout << result << endl;
     }
 
     return 0;
