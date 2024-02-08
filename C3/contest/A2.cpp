@@ -16,7 +16,7 @@ int main() {
     for(ll i = 1; i <= n; i++) {
         b = (b * n) % MOD;
         c = (c * i) % MOD;
-        d = (d + (pow(2, i) + pow(3, i)) % MOD) % MOD;
+        // d = (d + (pow(2, i) + pow(3, i)) % MOD) % MOD;
     }
 
     cout << a << " " << b << " " << c << " " << d;
