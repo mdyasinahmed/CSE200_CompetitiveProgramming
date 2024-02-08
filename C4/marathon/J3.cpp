@@ -17,7 +17,7 @@ int main() {
             T=0;
         }
 
-        cout << sum << endl;
+        cout << sum%1000000007 << endl;
     }
 
     return 0;
