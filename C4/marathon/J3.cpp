@@ -12,7 +12,7 @@ int main() {
 
         int sum = 0;
         for(int i=1; i<=n; i++) {
-            int T = pow(i, 2) - pow(i-1, 2);
+            long long int T = pow(i, 2) - pow(i-1, 2);
             sum+=T;
             T=0;
         }
