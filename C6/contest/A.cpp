@@ -5,26 +5,14 @@ int main() {
     int a, b, n, sum=0;
     cin >> a >> b;
 
-    if(b>a) {
-        n = b-a;
-    } else {
-        n = a -b;
+    while(a!=b) {
+        if(a<b) {
+            a++;
+        } else {
+            b++;
+        }
+        sum++;
     }
-
-
-
-    if(n/2 == 1) {
-        sum = 2;
-    } else {
-        for(int i=1; i<=(n/2)+1; i++) {
-        sum+=i;
-    }
-
-    for(int i=n/2; i>=1; i--) {
-        sum+=i;
-    }
-    }
-
     cout << sum << endl;
 
 
