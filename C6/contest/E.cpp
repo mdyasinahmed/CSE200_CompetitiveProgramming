@@ -20,9 +20,9 @@ int main() {
     long long int part1, part2;
 
     if(n%2 == 0) {
-        part1 = (n/2)+1;
+        part1 = (n/9)+1;
     } else {
-        part1 = (n/2);
+        part1 = (n/);
     }
 
     part2 = n - part1;
